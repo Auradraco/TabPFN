@@ -64,14 +64,6 @@ dev = [
   "onnx", # required for onnx export tests
   "psutil", # required for testing internal memory tool on windows
   # Docs
-  "mkdocs",
-  "mkdocs-material",
-  "mkdocs-autorefs",
-  "mkdocs-gen-files",
-  "mkdocs-literate-nav",
-  "mkdocs-glightbox",
-  "mkdocstrings[python]",
-  "markdown-exec[ansi]",
   "mike",
   "black",  # This allows mkdocstrings to format signatures in the docs
 ]
